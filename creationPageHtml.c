@@ -14,7 +14,7 @@ int main()
         Création du fichier dans l'ordinateur
 
         Le nom du fichier entré existe-t-il déjà ?
-2
+	
             Si oui : Il va ouvrir le fichier (penser alors à le refermer à la fin du programme avec la fonction fclose
             Si non : Il va créer le fichier et l'ouvrir grâce à la fonction fopen
 
