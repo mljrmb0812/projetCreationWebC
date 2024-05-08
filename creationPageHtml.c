@@ -28,7 +28,7 @@ int main()
             Si non : Le fichier est automatiquement créé dans le même dossier que celui de l'emplacement du fichier
      */
 
-	fichierHtml = fopen("C:\\Users\\mlmen\\pjtInfmtq\\crtionSiteWebC\\dossierHtml\\essaiPWeb2.html", "w");
+	fichierHtml = fopen("C:\\cheminDuFichier\\nomDuFichier.html", "w");
 
 	// Vérification de l'ouverture du fichier
 	if (fichierHtml == NULL)
@@ -66,18 +66,5 @@ Réponse à la première question: Pour créer un fichier C, il faut remplir la 
 */
 
 // Peut-on créer un nouveau fichier C à partir d'un autre fichier C ?
-
-/* ---------
-    FILE *creationFichierC
-
-    creationFichierC = fopen("C:\\Users\\mlmen\\pjtInfmtq\\crtionSiteWebC\\dossierTests\\fichierC.c", "w");
-
-    if (fichierHtml == NULL)
-    {
-        printf("Impossible d'ouvrir le fichier");
-        return 1;
-    }
-    fclose(creationFichierC)
------------ projet de creation de fichier c dans un projet specifique */
     return 0;
 }
